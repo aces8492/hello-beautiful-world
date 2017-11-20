@@ -6,9 +6,8 @@ if !exists('g:loaded_hellobeautifulworld')
 end
 
 "buffering user setting
-let s:save_cpo &cpo
+let s:save_cpo = &cpo
 set cpo&vim
-
 
 "say hello (function def)
 function! hellobeautifulworld#helloworld()

@@ -7,7 +7,7 @@ endif
 let g:loaded_hellobeautifulworld = 1
 
 "buffering user setting
-let s:save_cpo &cpo
+let s:save_cpo = &cpo
 set cpo&vim
 
 "say hello (function call)
